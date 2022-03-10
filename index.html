@@ -7,44 +7,134 @@
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
     <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="stylesheet" href="css.css">
-    <title>Anastacia Gómez</title>
+    <title>Anastacia Gómez | Diseñadora Gráfica y Web</title>
 </head>
 <body>
+
    <header>
         <nav>
             <ul id="ulFlex">
-                <li class="vinculo img"><a href="/"><img src="img/logo2.png" alt="Logo"></a></li>
-                <li class="vinculo"><a href="yo.html" class="vinculo">¿Quién soy?</a></li>
-                <li class="vinculo"><a href="trabajos.html" class="vinculo">Trabajos</a></li>
-                <li class="vinculo"><a href="academico.html" class="vinculo">Formación Académica</a></li>
-                <li class="vinculo"><a href="galeria.html" class="vinculo">Galería</a></li>
-                <li class="vinculo"><a href="contacto.html" class="vinculo">Contacto</a></li>
+                <li class="vinculo"><a href="yo.html" class="vinculo">Home</a></li>
+                <li class="vinculo"><a href="trabajos.html" class="vinculo">Portfolio</a></li>
+                <li class="vinculo"><a href="academico.html" class="vinculo">Sobre mí</a></li>
+                <li class="vinculo"><button type="submit" class="butn btn btn-primary btn-sm">Contacto</button></li>
             </ul>
         </nav>
    </header> 
 
-    <section class="saludo">
-        <h1 class="animate__animated animate__flash">Anastacia Gómez</h1>
-        <p>UX UI Designer | Frontend Developer</p>
-        <p>Texto nuevo</p>
-        <h2>Titulo commit</h2>
-        <img class="techwomen" src="img/technologist-removebg-preview.png" alt="emoji">
-        <p>Nuevo texto</p>
-        <h2>Título para el commit</h2>
+    <section>
+        <div>
+            <h2 class="titulo2">¡Hola!</h2>
+            <p class="titulo2">Soy</p><h1 class="animate__animated animate__backInLeft">Anastacia Gómez</h1>
+            <h5 class="subtitulo">UX UI Designer | Frontend Developer</h5>
+            <button type="submit" class="butn btn btn-primary">¡Hablemos!</button>
+            <button type="submit" class="btn btn-outline-light">Ver Portfolio</button>
+        </div>
+    </section>
+
+    <section>
+        <h2 class="titulo">Mis Proyectos</h2>
+
+        <div class="row row-cols-1 row-cols-md-3 g-4">
+
+            <div class="col">
+                <div class="card h-100">
+                  <img src="img/POR_Carousel.png" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Print | App de tipografías</h5>
+                    <p class="card-text">Trabajo práctico basado en el diseño de pantallas de una App que muestre el flujo de compra de una familia tipográfica.</p>
+                  </div>
+                </div>
+              </div>
+
+            <div class="col">
+              <div class="card h-100">
+                <img src="img/PoloCirco.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Polo Circo | Branding</h5>
+                  <p class="card-text">Diseño de sistema gráfico para vía pública.</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="col">
+              <div class="card h-100">
+                <img src="img/1.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Chateau Núñez | Presentación Inmueble</h5>
+                  <p class="card-text">Diseño de slides para inmobiliaria, edificio Chateau.</p>
+                </div>
+              </div>
+            </div>
+        </div>
+        
+        <div class="flex2">
+            <h2 class="footerTitle">¡Trabajemos juntos!</h2>
+            <button type="submit" class="butn btn btn-primary">Contactar</button>
+        </div>
+    </section>
+
+    <section>
+        <h2 class="titulo2">Hablemos</h2>
+        <p class="subtitulo">Déjame tu mensaje o contáctame a través de la red social de tu preferencia</p>
+
+    <form class="formFlex" action="">
+
+        <div class="formFlex1">
+            <div class="mb-3 col-2 inputUno">
+                <label class="form" for="exampleFormControlInput1" class="form-label">Nombre y Apellido</label>
+                <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Anastacia Gómez">
+            </div>
+
+            <div class="mb-3 col-2">
+                <label class="form" for="exampleFormControlInput1" class="form-label">Correo Electrónico</label>
+                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="ggomezlanda@gmail.com">
+            </div>
+        </div>
+
+        <div class="formFlex1">
+            <div class="mb-3 col-2 inputUno">
+                <select class="form-select" aria-label="Default select example">
+                    <option selected>Motivo del contacto</option>
+                    <option value="1">UX</option>
+                    <option value="2">UI</option>
+                    <option value="3">UX y UI</option>
+                    <option value="4">Frontend</option>
+                    <option value="5">Otro</option>
+                </select>
+            </div>
+    
+            <div class="mb-3 col-2">
+                <label class="form" for="exampleFormControlTextarea1" class="form-label">Mensaje</label>
+                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="..."></textarea>
+            </div>
+
+        </div>
+
+        <div class="flex2">
+            <button type="submit" class="butn btn btn-primary">Enviar</button>
+        </div>
+    </form>
     </section>
 
     <footer>
         <section>
-        <h1 class="titulo">Anastacia Gómez</h1>
+        <h1 class="footerTitle">Anastacia Gómez</h1>
         <p>UX UI Designer | Frontend Developer</p>
         <p>Buenos Aires, Argentina</p>
+        <p>+54 911 23860924</p>
         <img src="img/instagram.png" alt="EmojiInstagram">
         <img src="img/twitter.png" alt="EmojiTwitter">
         <img src="img/facebook.png" alt="EmojiFacebook">
         <img src="img/behance.png" alt="EmojiBehance">
-        <p>+54 911 23860924</p>
         </section>
     </footer>
+
+
+    <!-- JS Bootstrap-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 </body>
 </html>

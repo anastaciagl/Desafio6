@@ -3,85 +3,122 @@
     padding: 0;
 } 
 
- body{
+body{
      font-family: 'Raleway', sans-serif;
-     background-color: rgb(167, 164, 164);
- }
+     background-color: #2D4059;
+}
  
+/*Logo*/
+.img{
+     margin-right: 700px;
+}
+
+/*Nav*/
 .vinculo{
      list-style-type: none;
      text-decoration: none;
-     color: white;
- }
+     font-size: 17px;
+     color: #FFFF;
+}
 
 .vinculo:hover{
     font-weight: bolder;
-    color: rgb(99, 17, 99);
+    color: #ffd460;
 }
-
-nav{
-     background-image: linear-gradient(rgb(144, 144, 255), rgb(202, 133, 202));
-     min-height: 40px;
-     font-size: 20px;
-     font-weight: 580;
- } 
-
-.img {
-     margin-right: 700px;
-
- }
 
 #ulFlex{
      display: flex;
      flex-direction: row;
- }
+     justify-content: flex-end;
+     margin-top: 20px;
+     margin-right: 90px;
+}
 
 #ulFlex li{
      padding: 0 1rem;
 } 
 
-.saludo{
-     background-color: white;
-     line-height: 2.0;
+/**/
+.animate__animated.animate__backInLeft{
+     font-family: 'Poppins', sans-serif;
+     color: #f07b3f;
+     font-size: 30px;
+     font-weight: 700;
+     animation-duration: 1s;
 }
-
-.saludo p{
-     font-weight: bold;
-}
-
-.techwomen{
-     height: 150px;
-     width: 170px;
- }
 
 .titulo{
-     color: orange;
+     color:#EA5455;
      font-size: 30px;
- }
+     font-weight: 700;
+}
 
-.animate__animated.animate__flash{
-     color: orange;
+.titulo2{
+     color: #FFFF;
      font-size: 30px;
-     animation-duration: 4s;
-     animation-iteration-count: infinite;
-     
+     font-weight: 600;
 }
 
 .subtitulo{
-     color: rgb(99, 17, 99);
-     font-size: 25px;
- }  
+     color: #FFFF;
+     font-weight: 400;
+}
 
-.yo{
-     height: 400px;
-     width: 360px;
- }
+h2{
+     margin-top: 30px;
+}
+
+.formFlex{
+     display: flex;
+     flex-direction: column;
+}
+
+.formFlex1{
+     display: flex;
+     flex-direction: row;
+     justify-content: center;
+}
+
+.flex2{
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+}
+
+.form{
+     color: #FFFF;
+}
+
+.inputUno{
+     margin-right: 30px;
+}
+
+.butn{
+     background-color: #ffcb3d;
+     border: none;
+     font-weight: bold;
+}
 
 footer{
-     background-color: rgb(58, 58, 58);
+     margin-top: 20px;
+     background-color: #182536;
      color: white;
      line-height: 2.0;
      text-align: center;
      display: flex;
      justify-content: center;
- }
+}
+
+.footerTitle{
+     margin-top: 10px;
+     font-family: 'Poppins', sans-serif;
+     color: #f07b3f;
+     font-size: 30px;
+     font-weight: 700;
+} 
+
+.rectangulo {
+     width: 250px; 
+     height: 100px; 
+     background: #f07b3f;
+}
